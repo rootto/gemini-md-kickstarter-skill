@@ -1,0 +1,95 @@
+{
+  "skill": "gemini-md-kickstarter",
+  "queries": [
+    {
+      "query": "initialize a new GEMINI.md context file",
+      "expect": "trigger"
+    },
+    {
+      "query": "help me create GEMINI.md for my project",
+      "expect": "trigger"
+    },
+    {
+      "query": "GEMINI.md is missing from this workspace, please kickstart it",
+      "expect": "trigger"
+    },
+    {
+      "query": "I just started this folder, bootstrap GEMINI.md",
+      "expect": "trigger"
+    },
+    {
+      "query": "generate a local context configuration file GEMINI.md",
+      "expect": "trigger"
+    },
+    {
+      "query": "the GEMINI.md file here is empty, fill it with our project goals and stack",
+      "expect": "trigger"
+    },
+    {
+      "query": "setup GEMINI.md context for a new ADK app",
+      "expect": "trigger"
+    },
+    {
+      "query": "GEMINI.md is incomplete, please populate it",
+      "expect": "trigger"
+    },
+    {
+      "query": "bootstrap project context settings for Antigravity",
+      "expect": "trigger"
+    },
+    {
+      "query": "initialize project-level GEMINI.md context",
+      "expect": "trigger"
+    },
+    {
+      "query": "write a README.md file for the project",
+      "expect": "no-trigger",
+      "note": "wants README, not GEMINI.md"
+    },
+    {
+      "query": "explain the role of GEMINI.md and system.md",
+      "expect": "no-trigger",
+      "note": "informational explanation"
+    },
+    {
+      "query": "how do global context files work in Antigravity",
+      "expect": "no-trigger",
+      "note": "informational query"
+    },
+    {
+      "query": "set up a new python virtual environment in .venv",
+      "expect": "no-trigger",
+      "note": "python environment setup"
+    },
+    {
+      "query": "edit GEMINI.md and add a new rule for typescript indentation",
+      "expect": "no-trigger",
+      "note": "updating specific rule, not bootstrapping"
+    },
+    {
+      "query": "what is the command to reload hierarchical context",
+      "expect": "no-trigger",
+      "note": "command reference query"
+    },
+    {
+      "query": "create a new agent using agents-cli scaffold",
+      "expect": "no-trigger",
+      "note": "scaffolding agent code"
+    },
+    {
+      "query": "write a bash script to check if files exist",
+      "expect": "no-trigger",
+      "note": "scripting task"
+    },
+    {
+      "query": "verify my project build is passing",
+      "expect": "no-trigger",
+      "note": "build verification"
+    },
+    {
+      "query": "add a new skill to the workspace skills directory",
+      "expect": "no-trigger",
+      "note": "skill management"
+    }
+  ]
+}
