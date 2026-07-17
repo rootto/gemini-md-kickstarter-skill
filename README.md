@@ -1,6 +1,6 @@
 # Gemini.md Kickstarter Skill
 
-An autonomous agent skill designed to initialize, populate, and self-update project-specific `GEMINI.md` context files when starting new projects with tools like **Antigravity 2**, **Antigravity IDE**, **Antigravity CLI**, or Google's internal **Jetski**.
+An autonomous agent skill designed to initialize, populate, and self-update project-specific `GEMINI.md` context files when starting new projects with tools like **Antigravity 2**, **Antigravity IDE**, or **Antigravity CLI**.
 
 A well-populated `GEMINI.md` provides critical situational awareness, tech stack details, tool setups, and coding conventions to future agent instances in the workspace, preventing hallucinations and context degradation.
 

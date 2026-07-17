@@ -31,7 +31,7 @@ Below are the recommended reading resources for this project:
 
 - "Vertex AI" no longer exists as a product; the replacement is Gemini Enterprise Agent Platform.
 - "Vertex AI Agent Engine" is no more; the replacement is "Agent Runtime", which is a part of the Gemini Enterprise Agent Platform.
-- But APIs and Google internal resource names may still refer to legacy names, e.g. `reasoningEngine` rather than Agent Runtime. Always use the new names when creating documentation, but be mindful that we may need to use old names in API calls and certain resource definitions.
+- But APIs and legacy resource names may still refer to legacy names, e.g. `reasoningEngine` rather than Agent Runtime. Always use the new names when creating documentation, but be mindful that we may need to use old names in API calls and certain resource definitions.
 
 ## Appendices & Learnings
 
