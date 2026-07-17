@@ -42,6 +42,4 @@ env/
 tmp/
 temp/
 
-# Google-internal templates containing non-public references
-gemini-md-kickstarter/references/adk-gemini-enterprise-template.md
 
